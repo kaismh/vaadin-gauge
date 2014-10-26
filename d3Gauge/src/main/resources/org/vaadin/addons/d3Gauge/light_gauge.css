@@ -1,0 +1,103 @@
+.d3-gauge.light{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d3-gauge.light text.minMarkerText, .d3-gauge.light text.minValueText, .d3-gauge.light path.minMarker{
+    stroke: #0091B2;
+    fill:  #0091B2;
+    opacity: 0.50;
+}
+
+.d3-gauge.light text.avgMarkerText, .d3-gauge.light text.avgValueText, .d3-gauge.light path.avgMarker{
+    stroke: #E82DFF;
+    fill:  #E82DFF;
+    opacity: 0.50;
+}
+
+.d3-gauge.light text.maxMarkerText, .d3-gauge.light text.maxValueText, .d3-gauge.light path.maxMarker{
+    stroke: #FF8314;
+    fill:  #FF8314;
+    opacity: 0.50;
+}
+.d3-gauge.light path.zones{
+    opacity: 0.3;
+}
+.d3-gauge.light path.greenZone{
+    fill: #109618;
+}
+.d3-gauge.light path.yellowZone{
+    fill: #FF9900;
+}
+.d3-gauge.light path.redZone{
+    fill: #DC3912;
+}
+.d3-gauge.light line.minorTick{
+    stroke: #666;
+    stroke-width: 1px;
+}
+.d3-gauge.light line.majorTick{
+    stroke: #333;
+    stroke-width: 2px;
+}
+.d3-gauge.light text.lowerBoundLabel{
+    fill: #333;
+    stroke-width: 0px;
+}
+.d3-gauge.light text.upperBoundLabel{
+    fill: #333;
+    stroke-width: 0px;
+}
+.d3-gauge.light text.currentValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.light text.minValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.light text.avgValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.light text.maxValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.light text.gaugeLabel{
+    fill: #333;
+    stroke-width: 0px;
+}
+.d3-gauge.light circle.outerRing{
+    fill: #ccc;
+    stroke-width: 0.5px;
+    stroke: #000;
+    opacity: 0.0;
+}
+.d3-gauge.light circle.innerCircle{
+    fill: #fff;
+    stroke-width: 2px;
+    stroke: #e0e0e0;
+    opacity: 0.0;
+}
+.d3-gauge.light text.currentValue{
+    fill: #000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.light path.dialPointer{
+    fill: #dc3912;
+    stroke: #c63310;
+    opacity: 0.6;
+}
+.d3-gauge.light circle.dialButton{
+    fill: #4684EE;
+    stroke: #666;
+    opacity: 0.3;
+}

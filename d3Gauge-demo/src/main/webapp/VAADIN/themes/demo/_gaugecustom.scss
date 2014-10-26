@@ -1,0 +1,106 @@
+@mixin gaugecustom{
+
+  .d3-gauge.customstyle{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .d3-gauge.customstyle text.minMarkerText, .d3-gauge.customstyle text.minValueText, .d3-gauge.customstyle path.minMarker{
+    stroke: #0091B2;
+    fill:  #0091B2;
+    opacity: 0.50;
+  }
+
+  .d3-gauge.customstyle text.avgMarkerText, .d3-gauge.customstyle text.avgValueText, .d3-gauge.customstyle path.avgMarker{
+    stroke: #E82DFF;
+    fill:  #E82DFF;
+    opacity: 0.50;
+  }
+
+  .d3-gauge.customstyle text.maxMarkerText, .d3-gauge.customstyle text.maxValueText, .d3-gauge.customstyle path.maxMarker{
+    stroke: #FF8314;
+    fill:  #FF8314;
+    opacity: 0.50;
+  }
+  .d3-gauge.customstyle path.zones{
+    opacity: 1.0;
+  }
+  .d3-gauge.customstyle path.greenZone{
+    fill: #109618;
+  }
+  .d3-gauge.customstyle path.yellowZone{
+    fill: #FF9900;
+  }
+  .d3-gauge.customstyle path.redZone{
+    fill: #DC3912;
+  }
+  .d3-gauge.customstyle line.minorTick{
+    stroke: #666;
+    stroke-width: 1px;
+  }
+  .d3-gauge.customstyle line.majorTick{
+    stroke: #333;
+    stroke-width: 2px;
+  }
+  .d3-gauge.customstyle text.lowerBoundLabel{
+    fill: #333;
+    stroke-width: 0px;
+  }
+  .d3-gauge.customstyle text.upperBoundLabel{
+    fill: #333;
+    stroke-width: 0px;
+  }
+  .d3-gauge.customstyle text.currentValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+  }
+  .d3-gauge.customstyle text.minValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+  }
+  .d3-gauge.customstyle text.avgValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+  }
+  .d3-gauge.customstyle text.maxValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+  }
+  .d3-gauge.customstyle text.gaugeLabel{
+    fill: #333;
+    stroke-width: 0px;
+  }
+  .d3-gauge.customstyle circle.outerRing{
+    fill: #FFF;
+    stroke-width: 0.5px;
+    stroke: #000;
+    opacity: 1.0;
+  }
+  .d3-gauge.customstyle circle.innerCircle{
+    fill: #fff;
+    stroke-width: 2px;
+    stroke: #4684EE;
+    opacity: 1.0;
+  }
+  .d3-gauge.customstyle text.currentValue{
+    fill: #000;
+    stroke-width: 0px;
+    opacity: 1;
+  }
+  .d3-gauge.customstyle path.dialPointer{
+    fill: #dc3912;
+    stroke: #c63310;
+    fill-opacity: 0.7;
+  }
+  .d3-gauge.customstyle circle.dialButton{
+    fill: #4684EE;
+    stroke: #666;
+    opacity: 1.0;
+  }
+}

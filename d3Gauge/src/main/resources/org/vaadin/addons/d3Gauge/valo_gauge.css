@@ -1,0 +1,103 @@
+.d3-gauge.valo{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.d3-gauge.valo text.minMarkerText, .d3-gauge.valo text.minValueText, .d3-gauge.valo path.minMarker{
+    stroke: #95c87c;
+    fill:  #95c87c;
+    opacity: 0.50;
+}
+
+.d3-gauge.valo text.avgMarkerText, .d3-gauge.valo text.avgValueText, .d3-gauge.valo path.avgMarker{
+    stroke: #0091B2;
+    fill:  #0091B2;
+    opacity: 0.50;
+}
+
+.d3-gauge.valo text.maxMarkerText, .d3-gauge.valo text.maxValueText, .d3-gauge.valo path.maxMarker{
+    stroke: #fe902a;
+    fill:  #fe902a;
+    opacity: 0.50;
+}
+.d3-gauge.valo path.zones{
+    opacity: 1.0;
+}
+.d3-gauge.valo path.greenZone{
+    fill: #26881B;
+}
+.d3-gauge.valo path.yellowZone{
+    fill: #166ED5;
+}
+.d3-gauge.valo path.redZone{
+    fill: #e13e33;
+}
+.d3-gauge.valo line.minorTick{
+    stroke: #666;
+    stroke-width: 1px;
+}
+.d3-gauge.valo line.majorTick{
+    stroke: #333;
+    stroke-width: 2px;
+}
+.d3-gauge.valo text.lowerBoundLabel{
+    fill: #333;
+    stroke-width: 0px;
+}
+.d3-gauge.valo text.upperBoundLabel{
+    fill: #333;
+    stroke-width: 0px;
+}
+.d3-gauge.valo text.currentValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.valo text.minValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.valo text.avgValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.valo text.maxValueLabel{
+    stroke: #FFFFFF;
+    fill: #000000;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.valo text.gaugeLabel{
+    fill: #333;
+    stroke-width: 0px;
+}
+.d3-gauge.valo circle.outerRing{
+    fill: #ccc;
+    stroke-width: 0.5px;
+    stroke: #000;
+    opacity: 0.0;
+}
+.d3-gauge.valo circle.innerCircle{
+    fill: #fff;
+    stroke-width: 2px;
+    stroke: #e0e0e0;
+    opacity: 0.0;
+}
+.d3-gauge.valo text.currentValue{
+    fill: #000;
+    stroke-width: 0px;
+    opacity: 1;
+}
+.d3-gauge.valo path.dialPointer{
+    fill: #EE4C3F;
+    stroke: #BB382E;
+    fill-opacity: 0.7;
+}
+.d3-gauge.valo circle.dialButton{
+    fill: #1B87E3;
+    stroke: #1362B1;
+    opacity: 1.0;
+}

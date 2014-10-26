@@ -1,0 +1,99 @@
+.d3-gauge.dark{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d3-gauge.dark text.minMarkerText, .d3-gauge.dark text.minValueText, .d3-gauge.dark path.minMarker{
+    stroke: #78B753;
+    fill:  #78B753;
+    opacity: 0.50;
+}
+
+.d3-gauge.dark text.avgMarkerText, .d3-gauge.dark text.avgValueText, .d3-gauge.dark path.avgMarker{
+    stroke: #C0A25F;
+    fill:  #C0A25F;
+    opacity: 0.50;
+}
+
+.d3-gauge.dark text.maxMarkerText, .d3-gauge.dark text.maxValueText, .d3-gauge.dark path.maxMarker{
+    stroke: #E85848;
+    fill:  #E85848;
+    opacity: 0.50;
+}
+.d3-gauge.dark path.zones{
+    opacity: 1.0;
+}
+.d3-gauge.dark path.greenZone{
+    fill: #ddd;
+}
+.d3-gauge.dark path.yellowZone{
+    fill: #888;
+}
+.d3-gauge.dark path.redZone{
+    fill: #666;
+}
+.d3-gauge.dark line.minorTick{
+    stroke: #777;
+    stroke-width: 1px;
+}
+.d3-gauge.dark line.majorTick{
+    stroke: #888;
+    stroke-width: 2px;
+}
+.d3-gauge.dark text.lowerBoundLabel{
+    fill: #F0F0F0;
+    stroke-width: 0px;
+}
+.d3-gauge.dark text.upperBoundLabel{
+    fill: #F0F0F0;
+    stroke-width: 0px;
+}
+.d3-gauge.dark text.currentValueLabel{
+    fill: #B4B4B4;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.dark text.minValueLabel{
+    fill: #B4B4B4;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.dark text.avgValueLabel{
+    fill: #B4B4B4;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.dark text.maxValueLabel{
+    fill: #B4B4B4;
+    stroke-width: 0px;
+    opacity: 1.0;
+}
+.d3-gauge.dark text.gaugeLabel{
+    fill: #B4B4B4;
+    stroke-width: 0px;
+}
+.d3-gauge.dark circle.outerRing{
+    fill: #323232;
+    stroke-width: 0.5px;
+    stroke: #000;
+    opacity: 1.0;
+}
+.d3-gauge.dark circle.innerCircle{
+    fill: #3C3C3C;
+    stroke-width: 2px;
+    stroke: #E0E0E0;
+    opacity: 1.0;
+}
+.d3-gauge.dark text.currentValue{
+    fill: #fff;
+    stroke-width: 0px;
+    opacity: 1;
+}
+.d3-gauge.dark path.dialPointer{
+    fill: #888;
+    stroke: #555;
+    fill-opacity: 0.7;
+}
+.d3-gauge.dark circle.dialButton{
+    fill: #444;
+    stroke: #666;
+    opacity: 1.0;
+}

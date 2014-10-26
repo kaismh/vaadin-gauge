@@ -1,0 +1,103 @@
+.d3-gauge.default{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d3-gauge.default text.minMarkerText, .d3-gauge.default text.minValueText, .d3-gauge.default path.minMarker{
+	stroke: #0091B2;
+	fill:  #0091B2;
+	opacity: 0.50;
+}
+
+.d3-gauge.default text.avgMarkerText, .d3-gauge.default text.avgValueText, .d3-gauge.default path.avgMarker{
+	stroke: #E82DFF;
+	fill:  #E82DFF;
+	opacity: 0.50;
+}
+
+.d3-gauge.default text.maxMarkerText, .d3-gauge.default text.maxValueText, .d3-gauge.default path.maxMarker{
+	stroke: #FF8314;
+	fill:  #FF8314;
+	opacity: 0.50;
+}
+.d3-gauge.default path.zones{
+	opacity: 1.0;
+}
+.d3-gauge.default path.greenZone{
+	fill: #FFFFFF;
+}
+.d3-gauge.default path.yellowZone{
+	fill: #FF9900;
+}
+.d3-gauge.default path.redZone{
+	fill: #DC3912;
+}
+.d3-gauge.default line.minorTick{
+	stroke: #666;
+	stroke-width: 1px;
+}
+.d3-gauge.default line.majorTick{
+	stroke: #333;
+	stroke-width: 2px;
+}
+.d3-gauge.default text.lowerBoundLabel{
+	fill: #333;
+	stroke-width: 0px;
+}
+.d3-gauge.default text.upperBoundLabel{
+	fill: #333;
+	stroke-width: 0px;
+}
+.d3-gauge.default text.currentValueLabel{
+	stroke: #FFFFFF;
+	fill: #000000;
+	stroke-width: 0px;
+	opacity: 1.0;
+}
+.d3-gauge.default text.minValueLabel{
+	stroke: #FFFFFF;
+	fill: #000000;
+	stroke-width: 0px;
+	opacity: 1.0;
+}
+.d3-gauge.default text.avgValueLabel{
+	stroke: #FFFFFF;
+	fill: #000000;
+	stroke-width: 0px;
+	opacity: 1.0;
+}
+.d3-gauge.default text.maxValueLabel{
+	stroke: #FFFFFF;
+	fill: #000000;
+	stroke-width: 0px;
+	opacity: 1.0;
+}
+.d3-gauge.default text.gaugeLabel{
+	fill: #333;
+	stroke-width: 0px;
+}
+.d3-gauge.default circle.outerRing{
+	fill: #ccc;
+	stroke-width: 0.5px;
+	stroke: #000;
+	opacity: 1.0;
+}
+.d3-gauge.default circle.innerCircle{
+	fill: #fff;
+	stroke-width: 2px;
+	stroke: #e0e0e0;
+	opacity: 1.0;
+}
+.d3-gauge.default text.currentValue{
+	fill: #000;
+	stroke-width: 0px;
+	opacity: 1;
+}
+.d3-gauge.default path.dialPointer{
+	fill: #dc3912;
+	stroke: #c63310;
+	fill-opacity: 0.7;
+}
+.d3-gauge.default circle.dialButton{
+	fill: #4684EE;
+	stroke: #666;
+	opacity: 1.0;
+}
