@@ -5,7 +5,7 @@
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>d3Gauge-root</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0</version>
+	<version>1.0.1</version>
 
     <name>Vaadin d3 Gauge Parent Project</name>
     <url>https://github.com/kaismh/vaadin-gauge/</url>
